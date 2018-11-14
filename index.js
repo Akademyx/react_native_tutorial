@@ -12,7 +12,7 @@ import Header from './src/components/header';
 const App = () => (
         //if you want the app to be able to figure out whether it is song, album or w/e we will use prop system, thus we pass props to child component
         //use view tags as a div replacement
-    <View>
+    <View style={{ flex: 1 }}>
         <Header headerText={'Albums!al;sdjflk;s'} />
         <AlbumList />
     </View>
